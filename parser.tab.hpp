@@ -35,8 +35,8 @@
    especially those whose name start with YY_ or yy_.  They are
    private implementation details that can be changed or removed.  */
 
-#ifndef YY_YY_PARSER_REF_TAB_HPP_INCLUDED
-# define YY_YY_PARSER_REF_TAB_HPP_INCLUDED
+#ifndef YY_YY_PARSER_TAB_HPP_INCLUDED
+# define YY_YY_PARSER_TAB_HPP_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
@@ -59,32 +59,31 @@ extern int yydebug;
     BYTE = 260,                    /* BYTE  */
     B = 261,                       /* B  */
     BOOL = 262,                    /* BOOL  */
-    AUTO = 263,                    /* AUTO  */
-    TRUE = 264,                    /* TRUE  */
-    FALSE = 265,                   /* FALSE  */
-    RETURN = 266,                  /* RETURN  */
-    WHILE = 267,                   /* WHILE  */
-    BREAK = 268,                   /* BREAK  */
-    CONTINUE = 269,                /* CONTINUE  */
-    SC = 270,                      /* SC  */
-    COMMA = 271,                   /* COMMA  */
-    ID = 272,                      /* ID  */
-    NUM = 273,                     /* NUM  */
-    STRING = 274,                  /* STRING  */
-    ASSIGN = 275,                  /* ASSIGN  */
-    IF = 276,                      /* IF  */
-    ELSE = 277,                    /* ELSE  */
-    OR = 278,                      /* OR  */
-    AND = 279,                     /* AND  */
-    RELOP_EQ = 280,                /* RELOP_EQ  */
-    RELOP_REL = 281,               /* RELOP_REL  */
-    BINOP_SUM = 282,               /* BINOP_SUM  */
-    BINOP_MUL = 283,               /* BINOP_MUL  */
-    NOT = 284,                     /* NOT  */
-    LBRACE = 285,                  /* LBRACE  */
-    RBRACE = 286,                  /* RBRACE  */
-    LPAREN = 287,                  /* LPAREN  */
-    RPAREN = 288                   /* RPAREN  */
+    TRUE = 263,                    /* TRUE  */
+    FALSE = 264,                   /* FALSE  */
+    RETURN = 265,                  /* RETURN  */
+    WHILE = 266,                   /* WHILE  */
+    BREAK = 267,                   /* BREAK  */
+    CONTINUE = 268,                /* CONTINUE  */
+    SC = 269,                      /* SC  */
+    COMMA = 270,                   /* COMMA  */
+    ID = 271,                      /* ID  */
+    NUM = 272,                     /* NUM  */
+    STRING = 273,                  /* STRING  */
+    ASSIGN = 274,                  /* ASSIGN  */
+    IF = 275,                      /* IF  */
+    ELSE = 276,                    /* ELSE  */
+    OR = 277,                      /* OR  */
+    AND = 278,                     /* AND  */
+    RELOP_EQ = 279,                /* RELOP_EQ  */
+    RELOP_REL = 280,               /* RELOP_REL  */
+    BINOP_SUM = 281,               /* BINOP_SUM  */
+    BINOP_MUL = 282,               /* BINOP_MUL  */
+    NOT = 283,                     /* NOT  */
+    LBRACE = 284,                  /* LBRACE  */
+    RBRACE = 285,                  /* RBRACE  */
+    LPAREN = 286,                  /* LPAREN  */
+    RPAREN = 287                   /* RPAREN  */
   };
   typedef enum yytokentype yytoken_kind_t;
 #endif
@@ -101,4 +100,4 @@ extern YYSTYPE yylval;
 
 int yyparse (void);
 
-#endif /* !YY_YY_PARSER_REF_TAB_HPP_INCLUDED  */
+#endif /* !YY_YY_PARSER_TAB_HPP_INCLUDED  */

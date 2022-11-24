@@ -2,7 +2,7 @@
 #include "output.hpp"
 #include <stdio.h>
 
-#include "parser.tab.hpp"
+#include "parser-new-ref.tab.hpp"
 #define YYSTYPE int
 
 %}
